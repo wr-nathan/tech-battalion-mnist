@@ -51,4 +51,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: markdavidmc0/mnist-api:latest
+          tags: markofmadness/mnist-api:latest
