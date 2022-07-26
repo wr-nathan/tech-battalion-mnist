@@ -7,7 +7,6 @@ replicaCount: 1
 image:
   repository: mnist-api
   pullPolicy: Never
-  # Overrides the image tag whose default is the chart appVersion.
   tag: latest
 
 imagePullSecrets: []
